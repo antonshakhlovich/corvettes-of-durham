@@ -42,7 +42,7 @@ This isn't a cold pitch with promises — it's a working demo. By presenting a l
 **Project Context:** Greenfield — new codebase, migrating existing content
 
 **Tech Stack:**
-- **Framework:** Next.js 14+ (App Router)
+- **Framework:** Next.js 16+ (App Router)
 - **Hosting:** Vercel
 - **Styling:** Tailwind CSS
 - **Future Backend:** Vercel Functions (when needed)
