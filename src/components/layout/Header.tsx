@@ -29,20 +29,32 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
-            {NAV_ITEMS.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={cn(
-                  'px-3 py-2 rounded-lg text-sm font-medium transition-colors',
-                  pathname === item.href
-                    ? 'text-corvette-red bg-red-50'
-                    : 'text-gray-700 hover:text-corvette-red hover:bg-gray-50'
-                )}
-              >
-                {item.label}
-              </Link>
-            ))}
+            {NAV_ITEMS.map((item) => 
+              item.external ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-700 hover:text-corvette-red hover:bg-gray-50"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={cn(
+                    'px-3 py-2 rounded-lg text-sm font-medium transition-colors',
+                    pathname === item.href
+                      ? 'text-corvette-red bg-red-50'
+                      : 'text-gray-700 hover:text-corvette-red hover:bg-gray-50'
+                  )}
+                >
+                  {item.label}
+                </Link>
+              )
+            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -82,21 +94,34 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="lg:hidden pb-4 border-t border-gray-100">
             <div className="flex flex-col gap-1 pt-4">
-              {NAV_ITEMS.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={cn(
-                    'px-4 py-3 rounded-lg text-base font-medium transition-colors',
-                    pathname === item.href
-                      ? 'text-corvette-red bg-red-50'
-                      : 'text-gray-700 hover:text-corvette-red hover:bg-gray-50'
-                  )}
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
+              {NAV_ITEMS.map((item) => 
+                item.external ? (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-3 rounded-lg text-base font-medium transition-colors text-gray-700 hover:text-corvette-red hover:bg-gray-50"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={cn(
+                      'px-4 py-3 rounded-lg text-base font-medium transition-colors',
+                      pathname === item.href
+                        ? 'text-corvette-red bg-red-50'
+                        : 'text-gray-700 hover:text-corvette-red hover:bg-gray-50'
+                    )}
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                )
+              )}
             </div>
           </div>
         )}

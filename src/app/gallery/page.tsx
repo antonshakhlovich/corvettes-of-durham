@@ -1,21 +1,33 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
-import { PageHeader, Section } from '@/components/ui';
+import { Gallery, PageHeader, Section } from '@/components/ui';
 
 export const metadata: Metadata = {
   title: 'Gallery',
   description: 'Photo gallery of Corvettes of Durham events, cruises, and member vehicles.',
 };
 
-// Gallery images - in production this could be dynamic
-const galleryImages = [
-  { src: '/content/images/gallery/gallery-1.jpg', alt: 'Club event photo 1' },
-  { src: '/content/images/gallery/gallery-2.jpg', alt: 'Club event photo 2' },
-  { src: '/content/images/misc/home-hero.jpg', alt: 'Club gathering' },
-  { src: '/content/images/misc/club-banner.jpg', alt: 'Corvettes of Durham banner' },
-  { src: '/content/images/misc/charity-1.jpg', alt: 'Charity event 1' },
-  { src: '/content/images/misc/charity-2.jpg', alt: 'Charity event 2' },
-  { src: '/content/images/misc/charity-3.jpg', alt: 'Charity event 3' },
+// Gallery events with images from the original website
+const galleryEvents = [
+  {
+    title: 'Motorama 2025',
+    images: [
+      '348b416feae9dc410ede5a023702db2a',
+      'b99076b5b4fca54cadf66f1da648e311',
+      '0f5062a3224cae093b665d0adc85fc7d',
+      '2c8553f32c62d8d1591a757157dfa726',
+      'c7829924b69070587e732140e75e488a',
+      '5639b2e4d77f1ed44ec694106b79507a',
+      '1b9378982b120840b875277f312fa6bd',
+      'ab157659fafe42107346707486d1f2a9',
+      '5237038ce66a12a9b2ac581c1538d921',
+      '0fb34e15da8b6c89589dd26dfead4172',
+      'a5c0268e313ca201d19a4a51a2aa68ea',
+      'a007a507eab081d3ab33f24de193c8c1',
+      'df122a0174264188e8f5aeea52fe2ee1',
+      '10508bc1f2bab915b29ddeaeff7a7709',
+      '1b9ab1df0b8e96d63df29e5f61117a08',
+    ],
+  },
 ];
 
 export default function GalleryPage() {
@@ -26,33 +38,35 @@ export default function GalleryPage() {
         subtitle="Memories from our events, cruises, and gatherings"
       />
 
-      <Section background="gray">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-          {galleryImages.map((image, index) => (
-            <div
-              key={index}
-              className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow group"
-            >
-              <Image
-                src={image.src}
-                alt={image.alt}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              />
-              {/* Hover Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                <div className="absolute bottom-4 left-4 right-4">
-                  <p className="text-white text-sm font-medium">{image.alt}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+      {galleryEvents.map((event, eventIndex) => (
+        <Section
+          key={event.title}
+          title={event.title}
+          background={eventIndex % 2 === 0 ? 'gray' : 'white'}
+        >
+          <Gallery
+            title={event.title}
+            images={event.images}
+            previewCount={8}
+          />
+        </Section>
+      ))}
 
-        <p className="text-center text-gray-500 text-sm mt-8">
-          More photos coming soon! Check back regularly for updates.
-        </p>
+      <Section background="white">
+        <div className="text-center max-w-2xl mx-auto">
+          <p className="text-gray-600">
+            View more photos from past years on our{' '}
+            <a
+              href="https://www.corvettesofdurham.ca/gallery-2014--2015--2016--2017--2018.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-corvette-red hover:underline"
+            >
+              complete gallery archive
+            </a>
+            .
+          </p>
+        </div>
       </Section>
     </>
   );

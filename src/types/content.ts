@@ -98,6 +98,7 @@ export interface MetaInfo {
 export interface NavItem {
   label: string;
   href: string;
+  external?: boolean;
 }
 
 export const NAV_ITEMS: NavItem[] = [
@@ -108,4 +109,5 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Club Sponsors', href: '/sponsors' },
   { label: 'Code of Ethics', href: '/code-of-ethics' },
   { label: 'In Memoriam', href: '/in-memoriam' },
+  { label: 'Membership 2026', href: '/content/pdfs/2026-membership-form.pdf', external: true },
 ];
