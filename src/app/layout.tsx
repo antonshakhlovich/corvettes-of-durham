@@ -1,21 +1,58 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#C10001',
+}
 
 export const metadata: Metadata = {
   title: {
     default: 'Corvettes of Durham - Durham Region Corvette Club',
     template: '%s | Corvettes of Durham',
   },
-  description: 'A dedicated group of Corvette enthusiasts in Durham Region, Ontario, Canada. Join us for meetings, cruises, car shows, and charity events.',
-  keywords: ['Corvette', 'Durham Region', 'Car Club', 'Ontario', 'Corvette Club', 'Car Shows'],
+  description: 'A dedicated group of Corvette enthusiasts in Durham Region, Ontario, Canada. Join us for meetings, cruises, car shows, and charity events. Established 2000.',
+  keywords: ['Corvette', 'Durham Region', 'Car Club', 'Ontario', 'Corvette Club', 'Car Shows', 'Durham Ontario', 'Ajax', 'Whitby', 'Oshawa', 'Corvette Owners'],
+  authors: [{ name: 'Corvettes of Durham' }],
+  creator: 'Corvettes of Durham',
+  publisher: 'Corvettes of Durham',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://corvettesofdurham.vercel.app'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'Corvettes of Durham',
-    description: 'Durham Region Corvette enthusiast club since 2000',
+    description: 'Durham Region Corvette enthusiast club since 2000. Monthly meetings, cruises, car shows, and charity events.',
     type: 'website',
     locale: 'en_CA',
     siteName: 'Corvettes of Durham',
+    url: 'https://corvettesofdurham.vercel.app',
+    images: [
+      {
+        url: '/content/images/misc/club-banner.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Corvettes of Durham Club Banner',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Corvettes of Durham',
+    description: 'Durham Region Corvette enthusiast club since 2000',
+    images: ['/content/images/misc/club-banner.jpg'],
+  },
+  icons: {
+    icon: '/content/images/misc/corvette-emblem.jpg',
+    apple: '/content/images/misc/corvette-emblem.jpg',
   },
 }
 
