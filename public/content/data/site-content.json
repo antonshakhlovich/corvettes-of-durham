@@ -90,17 +90,19 @@
   ],
   "sponsors": {
     "gold": [
-      { "name": "Detail Matters Auto Salon", "url": "http://www.detailmattersautosalon.com" },
-      { "name": "Suburban Motors", "url": "http://www.suburbanmotors.ca" },
-      { "name": "Schlegel Villages", "url": "https://schlegelvillages.com" },
-      { "name": "MMF Insurance", "url": "https://www.mmfinsurance.ca" },
-      { "name": "The Auto Loft", "url": "http://WWW.THEAUTOLOFT.CA" },
-      { "name": "Flashfire Coatings", "url": "http://www.flashfirecoatings.com" },
-      { "name": "TFX International", "url": "http://www.tfxinternational.com" },
-      { "name": "Trim Tech Interiors", "url": "http://www.trimtechinteriors.com" }
+      { "name": "Ontario Motor Sales", "url": "https://www.ontariomotorsales.com/", "image": "ontario-motor-sales.jpg" },
+      { "name": "Desjardins - Responsible Investment", "url": "https://docs.desjardins.com/wm/responsible-investing/", "image": "desjardins.jpg" },
+      { "name": "TFX International", "url": "http://www.tfxinternational.com", "image": "tfx-international.jpg" },
+      { "name": "The Auto Loft", "url": "http://www.theautoloft.ca", "image": "auto-loft.jpg" },
+      { "name": "The Village of Taunton Mills", "url": "https://schlegelvillages.com", "image": "taunton-mills.jpg" },
+      { "name": "Whitby Marine Products", "url": "https://whitbymarineproducts.com", "image": "whitby-marine.png" }
     ],
     "silver": [
-      { "name": "Whitby Marine Products" }
+      { "name": "MMF Insurance", "url": "https://www.mmfinsurance.ca", "image": "mmf-insurance.jpg" },
+      { "name": "Detail Matters Auto Salon", "url": "http://www.detailmattersautosalon.com", "image": "detail-matters.jpg" },
+      { "name": "Suburban Motors", "url": "http://www.suburbanmotors.ca", "image": "suburban-motors.jpg" },
+      { "name": "Trim Tech Interiors", "url": "http://www.trimtechinteriors.com", "image": "trim-tech.jpg" },
+      { "name": "Flashfire Coatings", "url": "http://www.flashfirecoatings.com", "image": "flashfire.jpg" }
     ]
   },
   "newsletters": [

@@ -90,17 +90,19 @@
   ],
   "sponsors": {
     "gold": [
-      { "name": "Detail Matters Auto Salon", "url": "http://www.detailmattersautosalon.com" },
-      { "name": "Suburban Motors", "url": "http://www.suburbanmotors.ca" },
-      { "name": "Schlegel Villages", "url": "https://schlegelvillages.com" },
-      { "name": "MMF Insurance", "url": "https://www.mmfinsurance.ca" },
-      { "name": "The Auto Loft", "url": "http://WWW.THEAUTOLOFT.CA" },
-      { "name": "Flashfire Coatings", "url": "http://www.flashfirecoatings.com" },
+      { "name": "Ontario Motor Sales", "url": "https://www.ontariomotorsales.com" },
+      { "name": "Desjardins - Responsible Investment", "url": "https://www.desjardins.com" },
       { "name": "TFX International", "url": "http://www.tfxinternational.com" },
-      { "name": "Trim Tech Interiors", "url": "http://www.trimtechinteriors.com" }
+      { "name": "The Auto Loft", "url": "http://www.theautoloft.ca" },
+      { "name": "The Village of Taunton Mills", "url": "https://schlegelvillages.com/village/village-of-taunton-mills" },
+      { "name": "Whitby Marine Products" }
     ],
     "silver": [
-      { "name": "Whitby Marine Products" }
+      { "name": "Trim Tech Interiors", "url": "http://www.trimtechinteriors.com" },
+      { "name": "MMF Insurance", "url": "https://www.mmfinsurance.ca" },
+      { "name": "Detail Matters Auto Salon", "url": "http://www.detailmattersautosalon.com" },
+      { "name": "Suburban Motors", "url": "http://www.suburbanmotors.ca" },
+      { "name": "Flashfire Coatings", "url": "http://www.flashfirecoatings.com" }
     ]
   },
   "newsletters": [
