@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { NAV_ITEMS } from '@/types/content';
@@ -15,15 +16,15 @@ export default function Header() {
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 md:w-12 md:h-12 bg-corvette-red rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg md:text-xl">C</span>
-            </div>
-            <div className="hidden sm:block">
-              <span className="font-bold text-lg md:text-xl text-gray-900">
-                Corvettes of Durham
-              </span>
-            </div>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/content/images/logo/club-logo-full.jpeg"
+              alt="Corvettes of Durham"
+              width={180}
+              height={60}
+              className="h-12 md:h-14 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

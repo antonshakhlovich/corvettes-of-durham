@@ -65,12 +65,13 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="relative aspect-video rounded-xl overflow-hidden shadow-lg">
+          <div className="flex items-center justify-center">
             <Image
-              src="/content/images/misc/club-banner.jpg"
-              alt="Corvettes of Durham banner"
-              fill
-              className="object-cover"
+              src="/content/images/logo/club-logo-full.jpeg"
+              alt="Corvettes of Durham club logo"
+              width={400}
+              height={200}
+              className="max-w-full h-auto"
             />
           </div>
         </div>

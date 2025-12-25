@@ -48,11 +48,11 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Corvettes of Durham',
     description: 'Durham Region Corvette enthusiast club since 2000',
-    images: ['/content/images/misc/club-banner.jpg'],
+    images: ['/content/images/logo/club-logo-full.jpeg'],
   },
   icons: {
-    icon: '/content/images/misc/corvette-emblem.jpg',
-    apple: '/content/images/misc/corvette-emblem.jpg',
+    icon: '/content/images/logo/favicon.svg',
+    apple: '/content/images/logo/favicon.svg',
   },
 }
 

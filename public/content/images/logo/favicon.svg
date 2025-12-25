@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#C10001"/>
+  
+  <!-- Corvette crossed flags simplified -->
+  <g transform="translate(32, 32)">
+    <!-- Left flag (checkered/racing) -->
+    <g transform="rotate(-25)">
+      <rect x="-8" y="-18" width="12" height="16" fill="#1A1A1A" rx="1"/>
+      <rect x="-8" y="-18" width="4" height="4" fill="white"/>
+      <rect x="0" y="-18" width="4" height="4" fill="white"/>
+      <rect x="-4" y="-14" width="4" height="4" fill="white"/>
+      <rect x="-8" y="-10" width="4" height="4" fill="white"/>
+      <rect x="0" y="-10" width="4" height="4" fill="white"/>
+      <rect x="-4" y="-6" width="4" height="4" fill="white"/>
+      <!-- Pole -->
+      <rect x="-2" y="-2" width="2" height="20" fill="#D4AF37"/>
+    </g>
+    
+    <!-- Right flag (Corvette red with bowtie) -->
+    <g transform="rotate(25)">
+      <rect x="-4" y="-18" width="12" height="16" fill="#C10001" rx="1"/>
+      <!-- Simplified Chevy bowtie -->
+      <path d="M2,-12 L8,-10 L2,-8 L-4,-10 Z" fill="#F7E733"/>
+      <!-- Pole -->
+      <rect x="0" y="-2" width="2" height="20" fill="#D4AF37"/>
+    </g>
+  </g>
+  
+  <!-- White ring for definition -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="white" stroke-width="2"/>
+</svg>
