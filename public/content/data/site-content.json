@@ -71,22 +71,22 @@
     "adoptedDate": "January 12, 2015"
   },
   "inMemoriam": [
-    { "name": "Rob Halverson", "dates": "March 8, 1954 - May 31, 2017" },
-    { "name": "Randy Taylor", "dates": "May 10, 1954 - Oct 25, 2017" },
-    { "name": "Ralph Taylor", "dates": "May 29, 1944 - January 17, 2016" },
-    { "name": "James Dean (Jim) Prescott", "dates": "April 1935 - March 2019" },
-    { "name": "Brian Lindow", "dates": "January 4, 1957 - June 21, 2018", "note": "COD Vice President (2008 - 2018)" },
-    { "name": "Jann Langlois", "dates": "June 1, 1951 - May 24, 2023" },
-    { "name": "Ed Belczowski", "dates": "January 10, 1935 - August 6, 2018" },
-    { "name": "Randy Brown", "dates": "Oct 26, 1955 - June 2, 2015" },
-    { "name": "Jake Ruiter", "dates": "Sept 24, 1935 - May 17, 2014" },
-    { "name": "Barry Hosler", "dates": "Jan 13, 1955 - Sept 28, 2014" },
-    { "name": "Paul Hoskin", "dates": "Aug 9, 1948 - Jan 4, 2014" },
-    { "name": "Jan Langlois", "dates": "Nov 27, 1953 - July 28, 2012" },
-    { "name": "Betty Flowers", "dates": "Jan 13, 1956 - Mar 31, 2011" },
-    { "name": "Howie Wolchuck", "dates": "May 4, 1946 - Jan 8, 2011" },
-    { "name": "Irene Edwards", "dates": "Dec 14, 1955 - Jan 4, 2009" },
-    { "name": "Lori Ferrey", "dates": "Jan 22, 1960 - Sept 1, 2010" }
+    { "name": "Jann Langlois", "dates": "June 1, 1951 - May 24, 2023", "image": "jann-langlois.jpg" },
+    { "name": "James Dean (Jim) Prescott", "dates": "April 1935 - March 2019", "image": "jim-prescott.jpg" },
+    { "name": "Ed Belczowski", "dates": "January 10, 1935 - August 6, 2018", "image": "ed-belczowski.jpg" },
+    { "name": "Brian Lindow", "dates": "January 4, 1957 - June 21, 2018", "note": "COD Vice President (2008 - 2018)", "image": "brian-lindow.jpg" },
+    { "name": "Randy Taylor", "dates": "May 10, 1954 - Oct 25, 2017", "image": "randy-taylor.jpg" },
+    { "name": "Rob Halverson", "dates": "March 8, 1954 - May 31, 2017", "image": "rob-halverson.jpg" },
+    { "name": "Ralph Taylor", "dates": "May 29, 1944 - January 17, 2016", "image": "ralph-taylor.jpg" },
+    { "name": "Randy Brown", "dates": "Oct 26, 1955 - June 2, 2015", "image": "randy-brown.jpg" },
+    { "name": "Barry Hosler", "dates": "Jan 13, 1955 - Sept 28, 2014", "image": "barry-hosler.jpg" },
+    { "name": "Jake Ruiter", "dates": "Sept 24, 1935 - May 17, 2014", "image": "jake-ruiter.jpg" },
+    { "name": "Paul Hoskin", "dates": "Aug 9, 1948 - Jan 4, 2014", "image": "paul-hoskin.jpg" },
+    { "name": "Jan Langlois", "dates": "Nov 27, 1953 - July 28, 2012", "image": "jan-langlois.jpg" },
+    { "name": "Betty Flowers", "dates": "Jan 13, 1956 - Mar 31, 2011", "image": "betty-flowers.jpg" },
+    { "name": "Howie Wolchuck", "dates": "May 4, 1946 - Jan 8, 2011", "image": "howie-wolchuck.jpg" },
+    { "name": "Lori Ferrey", "dates": "Jan 22, 1960 - Sept 1, 2010", "image": "lori-ferrey.jpg" },
+    { "name": "Irene Edwards", "dates": "Dec 14, 1955 - Jan 4, 2009", "image": "irene-edwards.jpg" }
   ],
   "sponsors": {
     "gold": [

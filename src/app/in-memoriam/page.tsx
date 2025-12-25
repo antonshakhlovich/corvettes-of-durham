@@ -32,6 +32,7 @@ export default function InMemoriamPage() {
               key={person.name}
               name={person.name}
               role=""
+              image={person.image ? `/content/images/in-memoriam/${person.image}` : undefined}
               dates={person.dates}
               note={person.note}
               variant="memorial"

@@ -64,6 +64,7 @@ export interface Memorial {
   name: string;
   dates: string;
   note?: string;
+  image?: string;
 }
 
 export interface Sponsors {
