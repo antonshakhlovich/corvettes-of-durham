@@ -1,0 +1,8 @@
+# BMAD Method
+_bmad/
+
+# Claude
+.claude/
+
+# GitHub Agents
+.github/agents/
