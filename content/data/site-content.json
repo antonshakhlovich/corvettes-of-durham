@@ -1,0 +1,136 @@
+{
+  "club": {
+    "name": "Corvettes of Durham",
+    "tagline": "A dedicated group of Corvette enthusiasts",
+    "established": 2000,
+    "email": "corvettesofdurham@outlook.com",
+    "location": "Durham Region, Ontario, Canada",
+    "meetings": {
+      "frequency": "Monthly",
+      "day": "Third Wednesday",
+      "time": "5:30 PM",
+      "venue": "Various locations"
+    },
+    "affiliations": [
+      {
+        "name": "CCCC (Quad C)",
+        "url": "http://www.quadceast.com"
+      },
+      {
+        "name": "National Corvette Museum",
+        "rep": "Allan Harris"
+      }
+    ]
+  },
+  "charities": [
+    {
+      "name": "Oshawa Cancer Care Centre (Lakeridge Health)",
+      "type": "Main Charity",
+      "totalDonated": 52600
+    },
+    {
+      "name": "Humane Society of Durham Region",
+      "type": "Secondary Charity",
+      "status": "Newest charity"
+    }
+  ],
+  "executive": {
+    "directors": [
+      { "role": "President", "name": "Anne Halverson" },
+      { "role": "Vice President", "name": "Brian Striemer" },
+      { "role": "Treasurer", "name": "Allan Harris" },
+      { "role": "Secretary", "name": "Susanne Ralph" }
+    ],
+    "officers": [
+      { "role": "Advertising", "name": "Open" },
+      { "role": "CCCC Governor", "name": "Ron Langlois" },
+      { "role": "Membership", "name": "Barb Fletcher" },
+      { "role": "Newsletter", "name": "John Fletcher" },
+      { "role": "Cruise Director", "name": "John Heinrichs" },
+      { "role": "Motorama", "name": "Ken Gordon" },
+      { "role": "DreamVettes", "name": "Anne Halverson" },
+      { "role": "NCM Rep", "name": "Allan Harris" },
+      { "role": "Website", "name": "John Fletcher" }
+    ]
+  },
+  "codeOfEthics": {
+    "memberExpectations": [
+      "Make new friends, have fun and enjoy your Corvette(s).",
+      "Maintain a positive attitude towards all others when attending Club activities, and to conduct themselves accordingly when participating in events conducted by other Clubs.",
+      "Keep the Club up to date on changes in status such as a newly acquired Corvette, change of address/phone number/e-mail address, etc.",
+      "Assist the Club in making new members feel welcome and assist them by providing information on various Club activities/events, etc."
+    ],
+    "clubPromises": [
+      "Treat all members with dignity and respect.",
+      "Ensure that all members are encouraged, but not obligated, to participate in any or all events that are of interest to them.",
+      "Keep members up to date on Club activities and events, as well as events being conducted by CCCC (Quad C) and other Clubs.",
+      "Continually strive, with ongoing input and assistance by members, to make our Club the best it can be.",
+      "Provide new members with the information they require to participate in events (e.g. rules for various car shows, cruising, etc.).",
+      "Provide members with a copy of the Club's Constitution and By-Laws upon request."
+    ],
+    "adoptedDate": "January 12, 2015"
+  },
+  "inMemoriam": [
+    { "name": "Rob Halverson", "dates": "March 8, 1954 - May 31, 2017" },
+    { "name": "Randy Taylor", "dates": "May 10, 1954 - Oct 25, 2017" },
+    { "name": "Ralph Taylor", "dates": "May 29, 1944 - January 17, 2016" },
+    { "name": "James Dean (Jim) Prescott", "dates": "April 1935 - March 2019" },
+    { "name": "Brian Lindow", "dates": "January 4, 1957 - June 21, 2018", "note": "COD Vice President (2008 - 2018)" },
+    { "name": "Jann Langlois", "dates": "June 1, 1951 - May 24, 2023" },
+    { "name": "Ed Belczowski", "dates": "January 10, 1935 - August 6, 2018" },
+    { "name": "Randy Brown", "dates": "Oct 26, 1955 - June 2, 2015" },
+    { "name": "Jake Ruiter", "dates": "Sept 24, 1935 - May 17, 2014" },
+    { "name": "Barry Hosler", "dates": "Jan 13, 1955 - Sept 28, 2014" },
+    { "name": "Paul Hoskin", "dates": "Aug 9, 1948 - Jan 4, 2014" },
+    { "name": "Jan Langlois", "dates": "Nov 27, 1953 - July 28, 2012" },
+    { "name": "Betty Flowers", "dates": "Jan 13, 1956 - Mar 31, 2011" },
+    { "name": "Howie Wolchuck", "dates": "May 4, 1946 - Jan 8, 2011" },
+    { "name": "Irene Edwards", "dates": "Dec 14, 1955 - Jan 4, 2009" },
+    { "name": "Lori Ferrey", "dates": "Jan 22, 1960 - Sept 1, 2010" }
+  ],
+  "sponsors": {
+    "gold": [
+      { "name": "Detail Matters Auto Salon", "url": "http://www.detailmattersautosalon.com" },
+      { "name": "Suburban Motors", "url": "http://www.suburbanmotors.ca" },
+      { "name": "Schlegel Villages", "url": "https://schlegelvillages.com" },
+      { "name": "MMF Insurance", "url": "https://www.mmfinsurance.ca" },
+      { "name": "The Auto Loft", "url": "http://WWW.THEAUTOLOFT.CA" },
+      { "name": "Flashfire Coatings", "url": "http://www.flashfirecoatings.com" },
+      { "name": "TFX International", "url": "http://www.tfxinternational.com" },
+      { "name": "Trim Tech Interiors", "url": "http://www.trimtechinteriors.com" }
+    ],
+    "silver": [
+      { "name": "Whitby Marine Products" }
+    ]
+  },
+  "newsletters": [
+    { "month": "January", "year": 2025, "file": "2025-01-january.pdf" },
+    { "month": "February", "year": 2025, "file": "2025-02-february.pdf" },
+    { "month": "March", "year": 2025, "file": "2025-03-march.pdf" },
+    { "month": "April", "year": 2025, "file": "2025-04-april.pdf" },
+    { "month": "May", "year": 2025, "file": "2025-05-may.pdf" },
+    { "month": "June", "year": 2025, "file": "2025-06-june.pdf" },
+    { "month": "July", "year": 2025, "file": "2025-07-july.pdf" },
+    { "month": "August", "year": 2025, "file": "2025-08-august.pdf" },
+    { "month": "September", "year": 2025, "file": "2025-09-september.pdf" },
+    { "month": "October", "year": 2025, "file": "2025-10-october.pdf" },
+    { "month": "November", "year": 2025, "file": "2025-11-november.pdf" }
+  ],
+  "membership": {
+    "formFile": "2026-membership-form.pdf",
+    "contact": "corvettesofdurham@outlook.com"
+  },
+  "activities": [
+    "Monthly General Meetings",
+    "Cruises to various locations (snow-free months)",
+    "Car shows and events in Southern Ontario",
+    "Charity fundraising",
+    "DreamVettes event",
+    "Motorama participation"
+  ],
+  "meta": {
+    "scrapedAt": "2025-12-25",
+    "sourceUrl": "https://www.corvettesofdurham.ca/",
+    "originalPlatform": "GoDaddy Website Builder 7.0"
+  }
+}
