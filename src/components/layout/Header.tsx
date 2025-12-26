@@ -18,7 +18,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/content/images/logo/club-logo-full.jpeg"
+              src="/content/images/logo/club-logo-full.png"
               alt="Corvettes of Durham"
               width={180}
               height={60}

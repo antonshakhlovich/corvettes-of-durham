@@ -67,7 +67,7 @@ export default function Home() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/content/images/logo/club-logo-full.jpeg"
+              src="/content/images/logo/club-logo-full.png"
               alt="Corvettes of Durham club logo"
               width={400}
               height={200}
