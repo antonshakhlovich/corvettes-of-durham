@@ -30,15 +30,15 @@
 ### T1.1 - Initialize Next.js Project
 **Priority:** P0 (Blocker)  
 **Estimate:** 15 min  
-**Status:** `[ ]`
+**Status:** `[x]` ✅
 
 **Acceptance Criteria:**
-- [ ] Create Next.js 16+ project with App Router
-- [ ] Configure TypeScript
-- [ ] Set up Tailwind CSS with custom theme
-- [ ] Configure ESLint and Prettier
-- [ ] Create folder structure per architecture doc
-- [ ] Verify `npm run dev` works
+- [x] Create Next.js 16+ project with App Router
+- [x] Configure TypeScript
+- [x] Set up Tailwind CSS with custom theme
+- [x] Configure ESLint and Prettier
+- [x] Create folder structure per architecture doc
+- [x] Verify `npm run dev` works
 
 **Command:**
 ```bash
@@ -50,28 +50,28 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 ### T1.2 - Configure Tailwind Theme
 **Priority:** P0 (Blocker)  
 **Estimate:** 10 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T1.1
 
 **Acceptance Criteria:**
-- [ ] Add Corvette color palette (see UX doc)
-- [ ] Configure typography scale
-- [ ] Set up container sizes
-- [ ] Add custom font (if using)
+- [x] Add Corvette color palette (see UX doc)
+- [x] Configure typography scale
+- [x] Set up container sizes
+- [x] Add custom font (if using)
 
 ---
 
 ### T1.3 - Set Up Content Layer
 **Priority:** P0 (Blocker)  
 **Estimate:** 10 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T1.1
 
 **Acceptance Criteria:**
-- [ ] Copy `content/` folder to `public/content/` (images, PDFs)
-- [ ] Create `src/lib/content.ts` to load JSON data
-- [ ] Create TypeScript types for site content
-- [ ] Verify images load from `/content/images/`
+- [x] Copy `content/` folder to `public/content/` (images, PDFs)
+- [x] Create `src/lib/content.ts` to load JSON data
+- [x] Create TypeScript types for site content
+- [x] Verify images load from `/content/images/`
 
 ---
 
@@ -80,15 +80,15 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 ### T2.1 - Create Layout Component
 **Priority:** P0 (Blocker)  
 **Estimate:** 20 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T1.2
 
 **Acceptance Criteria:**
-- [ ] Header with club logo and navigation
-- [ ] Mobile hamburger menu
-- [ ] Footer with contact info and copyright
-- [ ] Responsive container wrapper
-- [ ] **VALIDATE:** Navigation items match original site menu
+- [x] Header with club logo and navigation
+- [x] Mobile hamburger menu
+- [x] Footer with contact info and copyright
+- [x] Responsive container wrapper
+- [x] **VALIDATE:** Navigation items match original site menu
 
 **Original Menu Items:**
 - Home
@@ -98,22 +98,24 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 - Club Sponsors
 - Code of Ethics
 - In Memoriam
+- Membership 2026 *(added as external link)*
 
 ---
 
 ### T2.2 - Create Reusable UI Components
 **Priority:** P1  
 **Estimate:** 30 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T1.2
 
 **Components to Create:**
-- [ ] `Button` - Primary/Secondary variants
-- [ ] `Card` - For sponsors, executive members
-- [ ] `PageHeader` - Consistent page titles
-- [ ] `Section` - Content sections with optional background
-- [ ] `PersonCard` - For executive/in memoriam
-- [ ] `SponsorLogo` - Clickable sponsor images
+- [x] `Button` - Primary/Secondary variants
+- [x] `Card` - For sponsors, executive members
+- [x] `PageHeader` - Consistent page titles
+- [x] `Section` - Content sections with optional background
+- [x] `PersonCard` - For executive/in memoriam
+- [x] `SponsorLogo` - Clickable sponsor images
+- [x] `Gallery` - Modern lightbox gallery *(bonus)*
 
 ---
 
@@ -122,16 +124,16 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 ### T3.1 - Home Page
 **Priority:** P0  
 **Estimate:** 30 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T2.1, T2.2
 
 **Acceptance Criteria:**
-- [ ] Hero section with club banner image
-- [ ] Club description paragraph
-- [ ] Charity highlights (Lakeridge Health, Humane Society)
-- [ ] Quick links to key pages
-- [ ] **VALIDATE:** Text matches `content/data/site-content.json` → `club` section
-- [ ] **VALIDATE:** Charity donation amount ($52,600) is displayed
+- [x] Hero section with club banner image
+- [x] Club description paragraph
+- [x] Charity highlights (Lakeridge Health, Humane Society)
+- [x] Quick links to key pages
+- [x] **VALIDATE:** Text matches `content/data/site-content.json` → `club` section
+- [x] **VALIDATE:** Charity donation amount ($52,600) is displayed
 
 **Content Source:** `site-content.json` → `club`, `charities`
 
@@ -140,15 +142,15 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 ### T3.2 - Executive Page
 **Priority:** P1  
 **Estimate:** 25 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T2.2
 
 **Acceptance Criteria:**
-- [ ] Display Executive Directors (President, VP, Treasurer, Secretary)
-- [ ] Display Officers (all roles from JSON)
-- [ ] Contact email prominently displayed
-- [ ] Photos if available (executive-1.jpg, etc.)
-- [ ] **VALIDATE:** All names match `site-content.json` → `executive`
+- [x] Display Executive Directors (President, VP, Treasurer, Secretary)
+- [x] Display Officers (all roles from JSON)
+- [x] Contact email prominently displayed
+- [x] Photos if available (executive-1.jpg, etc.)
+- [x] **VALIDATE:** All names match `site-content.json` → `executive`
 
 **Content Source:** `site-content.json` → `executive`
 
@@ -157,15 +159,15 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 ### T3.3 - Newsletters Page
 **Priority:** P1  
 **Estimate:** 20 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T2.2
 
 **Acceptance Criteria:**
-- [ ] Grid/list of newsletter PDFs (Jan-Nov 2025)
-- [ ] Each links to PDF in `/content/pdfs/newsletters/`
-- [ ] Show month/year for each
-- [ ] Optional: PDF preview thumbnail
-- [ ] **VALIDATE:** All 11 newsletters are listed
+- [x] Grid/list of newsletter PDFs (Jan-Nov 2025)
+- [x] Each links to PDF in `/content/pdfs/newsletters/`
+- [x] Show month/year for each
+- [x] Optional: PDF preview thumbnail
+- [x] **VALIDATE:** All 11 newsletters are listed
 
 **Content Source:** `site-content.json` → `newsletters`
 
@@ -174,30 +176,31 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 ### T3.4 - Gallery Page
 **Priority:** P2  
 **Estimate:** 20 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T2.2
 
 **Acceptance Criteria:**
-- [ ] Display gallery images in responsive grid
-- [ ] Lightbox/modal for full-size view (optional for MVP)
-- [ ] Alt text for accessibility
-- [ ] **VALIDATE:** Images load correctly
+- [x] Display gallery images in responsive grid
+- [x] Lightbox/modal for full-size view *(implemented with modern Gallery component)*
+- [x] Alt text for accessibility
+- [x] **VALIDATE:** Images load correctly
 
-**Content Source:** `content/images/gallery/`
+**Content Source:** Remote images from nebula.wsimg.com CDN (Motorama 2025)
 
 ---
 
 ### T3.5 - Club Sponsors Page
 **Priority:** P1  
 **Estimate:** 25 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T2.2
 
 **Acceptance Criteria:**
-- [ ] Separate sections for Gold and Silver sponsors
-- [ ] Sponsor logos with links to their websites
-- [ ] Graceful handling of sponsors without logos
-- [ ] **VALIDATE:** All sponsor names and URLs match JSON
+- [x] Separate sections for Gold and Silver sponsors
+- [x] Sponsor logos with links to their websites
+- [x] Graceful handling of sponsors without logos
+- [x] **VALIDATE:** All sponsor names and URLs match JSON
+- [x] Material Design card layout *(bonus)*
 
 **Content Source:** `site-content.json` → `sponsors`
 
@@ -206,14 +209,14 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 ### T3.6 - Code of Ethics Page
 **Priority:** P1  
 **Estimate:** 15 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T2.2
 
 **Acceptance Criteria:**
-- [ ] "Members are Expected to" section with bullet points
-- [ ] "Club Promises Members" section with bullet points
-- [ ] Show adoption date (January 12, 2015)
-- [ ] **VALIDATE:** All bullet points match JSON exactly
+- [x] "Members are Expected to" section with bullet points
+- [x] "Club Promises Members" section with bullet points
+- [x] Show adoption date (January 12, 2015)
+- [x] **VALIDATE:** All bullet points match JSON exactly
 
 **Content Source:** `site-content.json` → `codeOfEthics`
 
@@ -222,14 +225,16 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 ### T3.7 - In Memoriam Page
 **Priority:** P1  
 **Estimate:** 20 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T2.2
 
 **Acceptance Criteria:**
-- [ ] Respectful layout for deceased members
-- [ ] Name and dates for each person
-- [ ] Special notes where applicable (e.g., Brian Lindow's VP role)
-- [ ] **VALIDATE:** All 16 names and dates match JSON
+- [x] Respectful layout for deceased members
+- [x] Name and dates for each person
+- [x] Special notes where applicable (e.g., Brian Lindow's VP role)
+- [x] **VALIDATE:** All 16 names and dates match JSON
+- [x] Photos for all 16 members *(bonus - scraped from original)*
+- [x] Sorted by date, most recent first *(bonus)*
 
 **Content Source:** `site-content.json` → `inMemoriam`
 
@@ -238,13 +243,14 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 ### T3.8 - Membership Info Section
 **Priority:** P2  
 **Estimate:** 10 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T3.1
 
 **Acceptance Criteria:**
-- [ ] Link to 2026 membership form PDF
-- [ ] Contact email for inquiries
-- [ ] Can be part of Home page or separate section
+- [x] Link to 2026 membership form PDF
+- [x] Contact email for inquiries
+- [x] Can be part of Home page or separate section
+- [x] Header nav link to external PDF *(bonus)*
 
 **Content Source:** `site-content.json` → `membership`
 
@@ -255,41 +261,44 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 ### T4.1 - SEO & Metadata
 **Priority:** P1  
 **Estimate:** 15 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** All T3.x tasks
 
 **Acceptance Criteria:**
-- [ ] Page titles for all routes
-- [ ] Meta descriptions
-- [ ] Open Graph tags
-- [ ] Favicon (use Corvette emblem)
+- [x] Page titles for all routes
+- [x] Meta descriptions
+- [x] Open Graph tags
+- [x] Favicon (SVG Corvette emblem)
+- [x] Sitemap.xml
+- [x] Robots.txt
+- [x] Custom 404 page
 
 ---
 
 ### T4.2 - Performance Optimization
 **Priority:** P1  
 **Estimate:** 15 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** All T3.x tasks
 
 **Acceptance Criteria:**
-- [ ] Next.js Image component for all images
-- [ ] Lazy loading for below-fold content
-- [ ] Lighthouse Performance score > 90
+- [x] Next.js Image component for all images
+- [x] Lazy loading for below-fold content
+- [x] Lighthouse Performance score > 90
 
 ---
 
 ### T4.3 - Accessibility Check
 **Priority:** P1  
 **Estimate:** 15 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** All T3.x tasks
 
 **Acceptance Criteria:**
-- [ ] All images have alt text
-- [ ] Color contrast meets WCAG AA
-- [ ] Keyboard navigation works
-- [ ] Lighthouse Accessibility score > 90
+- [x] All images have alt text
+- [x] Color contrast meets WCAG AA
+- [x] Keyboard navigation works
+- [x] Lighthouse Accessibility score > 90
 
 ---
 
@@ -298,15 +307,40 @@ npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --
 ### T5.1 - Deploy to Vercel
 **Priority:** P0  
 **Estimate:** 10 min  
-**Status:** `[ ]`  
+**Status:** `[x]` ✅  
 **Depends On:** T4.1, T4.2
 
 **Acceptance Criteria:**
-- [ ] Push to GitHub repository
-- [ ] Connect to Vercel
-- [ ] Successful production build
-- [ ] Custom domain (optional, can use .vercel.app for pitch)
-- [ ] Share link with club
+- [x] Push to GitHub repository
+- [x] Connect to Vercel
+- [x] Successful production build
+- [x] Custom domain (optional, can use .vercel.app for pitch)
+- [x] Share link with club
+- [x] Auto-deploy on push to main branch
+
+**Repository:** `git@github.com:antonshakhlovich/corvettes-of-durham.git`
+
+---
+
+## ✅ Completion Summary
+
+**All 15 core tasks completed!**
+
+| Phase | Tasks | Status |
+|-------|-------|--------|
+| Phase 1: Setup | T1.1, T1.2, T1.3 | ✅ Complete |
+| Phase 2: Components | T2.1, T2.2 | ✅ Complete |
+| Phase 3: Pages | T3.1 - T3.8 | ✅ Complete |
+| Phase 4: Polish | T4.1, T4.2, T4.3 | ✅ Complete |
+| Phase 5: Deploy | T5.1 | ✅ Complete |
+
+### Bonus Features Delivered
+- Modern lightbox gallery with keyboard navigation
+- Mobile swipe-ready thumbnail strip
+- Material Design sponsor cards
+- In Memoriam photos for all 16 members
+- External "Membership 2026" nav link
+- Remote image hosting via nebula.wsimg.com CDN
 
 ---
 
