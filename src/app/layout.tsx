@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '@/lib/constants'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://corvettesofdurham.vercel.app'),
+  metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: '/',
   },
@@ -33,8 +34,8 @@ export const metadata: Metadata = {
     description: 'Durham Region Corvette enthusiast club since 2000. Monthly meetings, cruises, car shows, and charity events.',
     type: 'website',
     locale: 'en_CA',
-    siteName: 'Corvettes of Durham',
-    url: 'https://corvettesofdurham.vercel.app',
+    siteName: SITE_NAME,
+    url: SITE_URL,
     images: [
       {
         url: '/content/images/misc/club-banner.jpg',
